@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/inner_frame_margin_bottom"
+    android:paddingLeft="@dimen/inner_frame_margin_left"
+    android:paddingRight="@dimen/inner_frame_margin_right"
+    android:paddingTop="@dimen/inner_frame_margin_top"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/black" />
+
+        <com.htc.dotdesign.DrawingView
+            android:id="@+id/drawing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/fakeimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/dot_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!--
+    <ImageButton 
+        android:id="@+id/main_button"
+        android:background="@drawable/floating2"
+        android:layout_marginTop="500.0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    -->
+
+</RelativeLayout>

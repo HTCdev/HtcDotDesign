@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_category_color">#ff1ac6fe</color>
+    <color name="dark_primaryfont_color">#ffffffff</color>
+    <color name="brush_size_enable_color">@color/common_category_color</color>
+    <color name="brush_size_disable_color">#ffe1e1e1</color>
+    <color name="brush_size_stroke_color">#ff888888</color>
+    <color name="overlay_color">@color/common_category_color</color>
+    <color name="dark_ap_background_color">#ff141414</color>
+    
+    <color name="palette_color_11">#ffdc1919</color>
+    <color name="palette_color_12">#fff97907</color>
+    <color name="palette_color_13">#ffffc107</color>
+    <color name="palette_color_14">#ff6da61b</color>
+    <color name="palette_color_21">#ff045ad3</color>
+    <color name="palette_color_22">#ffe81761</color>
+    <color name="palette_color_23">#ff5024b4</color>
+    <color name="palette_color_24">#ff7d7d7d</color>
+    <color name="palette_color_31">#fff5f5f5</color>
+    <color name="palette_color_32">#fffdcc9c</color>
+    <color name="palette_color_33">#ff59372a</color>
+    <color name="palette_color_34">#ff1c1c1c</color>
+    
+    <color name="grid_pressed_light">#66000000</color>
+    <color name="transparent_40_black">#11000000</color>
+    
+    <color name="transparent_25_black">#19000000</color>
+    <color name="light_separatorfont_color">#939393</color>
+    
+    <color name="light_tabfont_disable_color">#805d5d5d</color>
+    <color name="tabfont_color">#5d5d5d</color>
+</resources>

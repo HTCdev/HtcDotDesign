@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Dialog items of Select photo from -->
+    <string-array name="items_select_template_from">
+        <item>Dot Design</item>
+        <item>Free sketch</item>
+        <item>Gallery</item>
+        <item>Camera</item>
+    </string-array>
+
+</resources>

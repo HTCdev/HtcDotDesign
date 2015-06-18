@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Limit : 30 chars , google play title-->
+    <string name="googleplay_title">HTC Dot Design&#8482;</string>
+	<!--Limit : 80 chars , google play short description -->
+	<string name="googleplay_description_short">Draw and share your own themes for HTC Dot View.</string>
+	<string name="googleplay_whatsnew">- Everything</string>
+	
+	<!-- Description for DotDesign APP -->
+	<string name="googleplay_description_app">HTC Dot Design lets your draw one-of-a-kind themes for your HTC Dot View. Create a drawing from scratch, turn photos into pixelated masterpieces or pick one of HTC\'s templates to get started. After you\'re done designing, show off what you\'ve made with friends and family. You\'ll need the HTC Dot View case and app to get the full experience.</string>
+	<!-- Description for DotDesign SupportingScope -->
+	<string name="googleplay_description_supportingScope"></string>
+	<!-- Description for DotDesign Legal -->
+    <string name="googleplay_description_legal">[googleplay_description_legal_common_1]</string>
+</resources>

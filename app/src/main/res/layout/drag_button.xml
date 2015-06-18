@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drag_button"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:layout_width="@dimen/drag_button_width"
+    android:layout_height="@dimen/drag_button_height"
+    android:background="@drawable/dot_design_bar"
+    android:orientation="horizontal" >
+    <!-- android:background="@color/icon_color" -->
+
+	<ImageView
+        android:id="@+id/curr_func_icon"
+        android:layout_width="@dimen/hv02"
+        android:layout_height="@dimen/hv02"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/h01" />
+    
+    <ImageView
+        android:id="@+id/extend_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/margin_xs"
+        android:background="@drawable/dot_design_collapse_right" />
+
+</LinearLayout>

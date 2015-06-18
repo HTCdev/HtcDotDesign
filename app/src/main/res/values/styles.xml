@@ -1,0 +1,53 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="PopMenuAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+    
+    <style name="condensed" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    
+    <style name="bold_condensed" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="darklist_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    
+    <style name="darklist_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+    
+    <style name="welcometheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    
+    <style name="fixed_separator_secondary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/fixed_separator_secondary_m</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+
+</resources>

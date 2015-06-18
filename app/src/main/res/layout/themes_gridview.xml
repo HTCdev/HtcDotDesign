@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+		<GridView 
+		    android:id="@+id/panel_picker_grid"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:numColumns="3"
+		    android:verticalSpacing="@dimen/grid_picker_item_margin"
+		    android:horizontalSpacing="@dimen/grid_picker_item_margin"
+		    android:stretchMode="columnWidth"
+		    android:drawSelectorOnTop="true"
+		    android:gravity="center">
+		</GridView>
+		
+		<TextView
+		    android:id="@+id/emptyview"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_centerInParent="true"
+		    android:textSize="@dimen/list_body_secondary_l"
+		    android:textColor="@color/light_separatorfont_color"
+		    android:gravity="center"
+		    android:visibility="gone"
+		    android:text="@string/emptyview_text" />
+		<LinearLayout
+		    android:id="@+id/footer"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/footer_height"
+		    android:background="@drawable/dot_design_bkg_down_light"
+		    android:visibility="gone"
+		    android:layout_alignParentBottom="true"
+		    android:orientation="horizontal" >
+		    	<TextView
+		    	android:id="@+id/btn_cancel"
+		    	android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="1"
+		    	android:background="@null"
+		    	android:singleLine="true"
+		    	android:paddingLeft="@dimen/margin_s"
+		    	android:paddingRight="@dimen/margin_s"
+		    	android:gravity="center"
+		    	android:clickable="true"
+		    	style="@style/fixed_separator_secondary_m"
+		    	android:text="@string/btn_cancel" />
+		    	<View
+		    	    android:layout_width="1px"
+		    	    android:layout_height="match_parent"
+		    	    android:layout_marginTop="@dimen/margin_m"
+		    	    android:layout_marginBottom="@dimen/margin_m"
+		    	    android:background="@drawable/dot_design_div" 
+		    	    />
+		    	<TextView
+		    	android:id="@+id/btn_delete"
+		    	android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:paddingLeft="@dimen/margin_s"
+		    	android:paddingRight="@dimen/margin_s"
+		    	android:layout_weight="1"
+		    	android:background="@null"
+		    	android:singleLine="true"
+		    	android:gravity="center"
+		    	android:clickable="true"
+		    	style="@style/fixed_separator_secondary_m"
+		    	android:text="@string/btn_delete" />
+		</LinearLayout>
+</RelativeLayout>

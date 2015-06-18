@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- This is qHD resolution 960*540(360*1.5) (FullHD ÷ 2) -->
+    <!-- Layout -->
+    <dimen name="margin_l">23px</dimen> <!-- M1 -->
+    <dimen name="margin_m">15px</dimen> <!-- M2 -->
+    <dimen name="margin_s">11px</dimen> <!-- M3 -->
+    <dimen name="margin_xs">9px</dimen> <!-- M4 -->
+    <dimen name="spacing">7px</dimen> <!-- M5 -->
+    <dimen name="margin_m_2">30px</dimen> <!-- 2*margin_m = 2*15 = 30 -->
+    <dimen name="margin_xs_3">27px</dimen> <!-- 3*margin_xs = 3*9 = 27 -->
+    <dimen name="spacing_2">14px</dimen> <!-- 2*spacing = 2*7 = 14 -->
+    
+    <!-- Grid picker item -->
+    <dimen name="grid_picker_item_width">118.67dp</dimen>
+    <dimen name="grid_picker_item_height">210.85dp</dimen>
+    <dimen name="grid_picker_item_margin">2dp</dimen>
+    
+    <dimen name="footer_height">90px</dimen>
+    <dimen name="fixed_separator_secondary_m">24px</dimen>
+    
+    <!-- DotImage part -->
+    <dimen name="inner_frame_width">540px</dimen>
+    <dimen name="inner_frame_height">960px</dimen>
+    <dimen name="inner_frame_margin_top">0px</dimen>
+    <dimen name="inner_frame_margin_left">0px</dimen>
+    <dimen name="inner_frame_margin_right">0px</dimen>
+    <dimen name="inner_frame_margin_bottom">0px</dimen>
+    <dimen name="dot_pixel_width">20px</dimen>
+    <dimen name="dot_pixel_height">20px</dimen>
+
+</resources>

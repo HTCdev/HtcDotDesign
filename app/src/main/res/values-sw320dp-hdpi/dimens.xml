@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- This is FWVGA resolution 854*480(320*1.5), e.g., A11 -->
+    <!-- Layout -->
+    <dimen name="margin_l">23px</dimen> <!-- M1 -->
+    <dimen name="margin_m">15px</dimen> <!-- M2 -->
+    <dimen name="margin_s">11px</dimen> <!-- M3 -->
+    <dimen name="margin_xs">9px</dimen> <!-- M4 -->
+    <dimen name="spacing">7px</dimen> <!-- M5 -->
+    <dimen name="margin_m_2">30px</dimen> <!-- 2*margin_m = 2*15 = 30 -->
+    <dimen name="margin_xs_3">27px</dimen> <!-- 3*margin_xs = 3*9 = 27 -->
+    <dimen name="spacing_2">14px</dimen> <!-- 2*spacing = 2*7 = 14 -->
+    
+    <!-- Grid picker item -->
+    <dimen name="grid_picker_item_width">105.33dp</dimen>
+    <dimen name="grid_picker_item_height">187.15dp</dimen>
+    <dimen name="grid_picker_item_margin">2dp</dimen>
+
+    <dimen name="footer_height">90px</dimen>
+    <dimen name="fixed_separator_secondary_m">24px</dimen>
+    
+    <!-- DotImage part -->
+    <dimen name="inner_frame_width">459px</dimen>
+    <dimen name="inner_frame_height">816px</dimen>
+    <dimen name="inner_frame_margin_top">19px</dimen>
+    <dimen name="inner_frame_margin_left">10px</dimen>
+    <dimen name="inner_frame_margin_right">11px</dimen>
+    <dimen name="inner_frame_margin_bottom">19px</dimen>
+    <dimen name="dot_pixel_width">17px</dimen>
+    <dimen name="dot_pixel_height">17px</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- This is FullHD resolution 1920*1080(360*3) -->
+    <!-- Layout -->
+    <dimen name="margin_l">48px</dimen> <!-- M1 -->
+    <dimen name="margin_m">30px</dimen> <!-- M2 -->
+    <dimen name="margin_s">22px</dimen> <!-- M3 -->
+    <dimen name="margin_xs">18px</dimen> <!-- M4 -->
+    <dimen name="spacing">14px</dimen> <!-- M5 -->
+    <dimen name="margin_m_2">60px</dimen> <!-- 2*margin_m = 2*30 = 60 -->
+    <dimen name="margin_xs_3">54px</dimen> <!-- 3*margin_xs = 3*18 = 54 -->
+    <dimen name="spacing_2">28px</dimen> <!-- 2*spacing = 2*14 = 28 -->
+   
+    
+    <dimen name="inner_frame_bottom_layout_height">1080px</dimen> <!-- 40 * 27(dots) -->
+    <dimen name="footer_height">180px</dimen>
+    <dimen name="fixed_separator_secondary_m">48px</dimen>
+
+    <!-- DotImage part -->
+   	<dimen name="inner_frame_width">1080px</dimen>
+    <dimen name="inner_frame_height">1920px</dimen> 
+    <dimen name="dot_pixel_width">40px</dimen>
+    <dimen name="dot_pixel_height">40px</dimen>
+    <dimen name="inner_frame_margin_top">0px</dimen>
+    <dimen name="inner_frame_margin_left">0px</dimen>
+    <dimen name="inner_frame_margin_right">0px</dimen>
+    <dimen name="inner_frame_margin_bottom">0px</dimen>
+</resources>

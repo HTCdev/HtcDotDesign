@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadius="@dimen/ring_innerRadius"
+    android:thickness="@dimen/ring_thickness"
+    android:useLevel="false" >
+    
+    <solid android:color="@color/brush_size_stroke_color"/>
+        
+    <size 
+		android:width="@dimen/ring_size_width"
+		android:height="@dimen/ring_size_height"/>
+    
+    
+</shape>
+
+<!-- <stroke 
+        android:width="@dimen/ring_stroke"
+        android:color="@color/palette_color_21"/> -->

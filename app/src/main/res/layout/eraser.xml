@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tool_eraser"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <include layout="@layout/top_arrow" />
+
+    <LinearLayout
+        android:layout_width="@dimen/eraser_width"
+        android:layout_height="@dimen/v01"
+        android:background="@drawable/dot_design_popupmenu"
+        android:orientation="vertical" >
+        <include layout="@layout/size_select" />
+    </LinearLayout>
+
+    <include layout="@layout/bottom_arrow" />
+
+</LinearLayout>

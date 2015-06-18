@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- This is HD resolution 1280*720(360*2) -->
+    <!-- Layout -->
+    <dimen name="margin_l">30px</dimen> <!-- M1 -->
+    <dimen name="margin_m">20px</dimen> <!-- M2 -->
+    <dimen name="margin_s">14px</dimen> <!-- M3 -->
+    <dimen name="margin_xs">12px</dimen> <!-- M4 -->
+    <dimen name="spacing">9px</dimen> <!-- M5 -->
+    <dimen name="margin_m_2">40px</dimen> <!-- 2*margin_m = 2*20 = 40 -->
+    <dimen name="margin_xs_3">36px</dimen> <!-- 3*margin_xs = 3*12 = 36 -->
+    <dimen name="spacing_2">18px</dimen> <!-- 2*spacing = 2*9 = 18 -->
+    
+    <!-- Grid picker item -->
+    <dimen name="grid_picker_item_width">118dp</dimen>
+    <dimen name="grid_picker_item_height">209.67dp</dimen>
+    <dimen name="grid_picker_item_margin">3dp</dimen>
+
+    <dimen name="footer_height">120px</dimen>
+    <dimen name="fixed_separator_secondary_m">32px</dimen>
+    
+    <!-- DotImage part -->
+    <dimen name="inner_frame_width">702px</dimen>
+    <dimen name="inner_frame_height">1248px</dimen>
+    <dimen name="dot_pixel_width">26px</dimen>
+    <dimen name="dot_pixel_height">26px</dimen>
+    <dimen name="inner_frame_margin_top">3px</dimen>
+    <dimen name="inner_frame_margin_left">9px</dimen>
+    <dimen name="inner_frame_margin_right">9px</dimen>
+    <dimen name="inner_frame_margin_bottom">29px</dimen>
+</resources>

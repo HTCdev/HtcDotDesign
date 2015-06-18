@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/v01" >
+
+    <LinearLayout
+        android:id="@+id/brush_size_chooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_1x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/brush_size_1x1"
+                android:textAppearance="@style/darklist_primary_m" />
+
+            <ImageView
+                android:id="@+id/btn_1x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_2"
+                android:scaleType="center"
+                android:src="@drawable/round_brush_size"
+                android:background="@drawable/round_brush_size_ring"
+                android:layout_gravity="center_vertical"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/h04"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_2x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/brush_size_2x2"
+                android:textAppearance="@style/darklist_primary_m" />
+
+            <ImageView
+                android:id="@+id/btn_2x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_2"
+                android:scaleType="center"
+                android:src="@drawable/round_brush_size"
+                android:background="@drawable/round_brush_size_ring"
+                android:layout_gravity="center_vertical"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- This is WQHD resolution 2560*1440(360*4) -->
+    <!-- Layout -->
+    <dimen name="margin_l">60px</dimen> <!-- M1 -->
+    <dimen name="margin_m">40px</dimen> <!-- M2 -->
+    <dimen name="margin_s">28px</dimen> <!-- M3 -->
+    <dimen name="margin_xs">24px</dimen> <!-- M4 -->
+    <dimen name="spacing">18px</dimen> <!-- M5 -->
+    <dimen name="margin_m_2">80px</dimen> <!-- 2*margin_m = 2*40 = 80 -->
+    <dimen name="margin_xs_3">72px</dimen> <!-- 3*margin_xs = 3*24 = 72 -->
+    <dimen name="spacing_2">36px</dimen> <!-- 2*spacing = 2*18 = 36 -->
+    
+    <dimen name="footer_height">240px</dimen>
+    <dimen name="fixed_separator_secondary_m">64px</dimen>
+    <!-- DotImage part -->
+    <dimen name="inner_frame_width">1404px</dimen>
+    <dimen name="inner_frame_height">2496px</dimen>
+    <dimen name="dot_pixel_width">52px</dimen>
+    <dimen name="dot_pixel_height">52px</dimen>
+    <dimen name="inner_frame_bottom_layout_height">1404px</dimen> <!-- 52 * 27(dots) -->
+    <dimen name="inner_frame_margin_top">6px</dimen>
+    <dimen name="inner_frame_margin_left">18px</dimen>
+    <dimen name="inner_frame_margin_right">18px</dimen>
+    <dimen name="inner_frame_margin_bottom">58px</dimen>
+    
+
+</resources>

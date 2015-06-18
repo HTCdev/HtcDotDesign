@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.dotdesign"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dot_design_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.htc.dotdesign.MainPage"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/welcometheme" >
+            <intent-filter>
+                <action android:name="com.htc.intent.action.dotviewgame_launch" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.dotdesign.DrawingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.htc.dotdesign.DeleteThemeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/welcometheme" >
+        </activity>
+        <activity
+            android:name="com.htc.dotdesign.DotDesignTemplate"
+            android:screenOrientation="portrait"
+            android:theme="@style/welcometheme" >
+        </activity>
+        
+        <service
+            android:name="com.htc.dotdesign.ToolBoxService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.htc.dotdesign.bind_tool_box_service" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

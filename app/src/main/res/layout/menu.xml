@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tool_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <include layout="@layout/top_arrow" />
+
+    <ListView
+        android:id="@+id/menu"
+        android:layout_width="@dimen/menu_width"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/dot_design_b_div_land"
+        android:background="@drawable/dot_design_popupmenu" />
+
+    <include layout="@layout/bottom_arrow" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dot Design</string>
+    
+    <string name="menu_clean_all">Clean sketch</string>
+    <string name="menu_insert">Change template</string>
+    <string name="menu_set_theme">Set as HTC Dot View</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_exit">Exit</string>
+    <string name="title_choose_template_from">Choose a template from</string>
+    <!--Button of dialog  -->
+    <string name="title_exit">Exit</string>
+    <string name="button_save">YES,SAVE</string>
+    <string name="button_not_save">NO</string>   
+    <string name="exit_dialog_message">Do you want to save your sketch?</string>
+    
+    <!-- Item name for delete in theme menu -->
+    <string name="theme_menu_delete">Delete</string>
+    
+    <string name="emptyview_text">Tap \"+\" to create a new sketch</string>
+    
+    <string name="loading">Loading...</string>
+    <!-- Dialog message for saving data -->
+    <string name="saving">Saving...</string>
+    <!-- Item name for select all in theme menu -->
+    <string name="theme_menu_select_all">Select all</string>
+
+    <!-- Item name for deselect all theme menu -->
+    <string name="theme_menu_deselect_all">Deselect all</string>
+    
+    <!-- Delete botton -->
+    <string name="btn_delete">DELETE</string>
+    <!-- Cancel botton -->
+    <string name="btn_cancel">CANCEL</string>
+    
+    <string name="my_sketch">My sketches</string>
+    <!-- Title of delete theme -->
+    <string name="title_delete_theme">Choose items to delete</string><!--Choose items to delete-->
+    <!-- Title of choose template -->
+    <string name="choose_template">Choose a template</string>
+    <string name="toast_theme_applied">Theme applied.</string>
+    <string name="toast_message">Your sketch was saved.</string>
+</resources>
